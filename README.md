@@ -7,3 +7,8 @@ This is the code for Sign Language Detection.
 
 ## Data Collection
 Data is avialable on kaggle https://www.kaggle.com/datamunge/sign-language-mnist
+
+## Code Structure
+1. model_building.py contains code to build the Deep Learning model. Here, we used CNN to build model using Keras.
+2. After model completion, it is saved in CNNmodel.h5 file.
+3. app.py contains front end, it captures user's gesture and pass it to the model for prediction.
